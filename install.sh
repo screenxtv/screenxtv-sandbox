@@ -56,4 +56,4 @@ fi
 # run ScreenX TV Client
 cd $TMP/$REPO_NAME
 echo "* going to start broadcasting ... \n"
-$TMP/$REPO_NAME/run
+$TMP/$REPO_NAME/run < /dev/tty
