@@ -1,6 +1,6 @@
 # ScreenX TV Sandbox
 
-[![Screenshot](https://raw.github.com/tompng/screenxtv-client/master/images/ss-screenxtv.png)](http://screenx.tv)
+[![Screenshot](https://raw.github.com/tompng/screenxtv-gcc-client/master/images/ss-screenxtv.png)](http://screenx.tv)
 
 ## Description
 
