@@ -2,7 +2,7 @@
 
 ## Description
 
-This script installs and runs [ScreenX TV Client](http://screenx.tv) using `/tmp` directory.
+This script enables you to install and run [ScreenX TV Client](http://screenx.tv) by just `curl` command.
 
 ## Start
 
