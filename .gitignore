@@ -1,0 +1,8 @@
+*~
+*.pyc
+#*
+*.out
+.DS_Store
+/usr/*
+wget-log
+./run
