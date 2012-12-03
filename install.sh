@@ -3,7 +3,7 @@
 # If required commands are not executable, set this 0.
 IS_SCREENX_EXECUTABLE=0
 
-REPO_NAME="screenxtv-client" 
+REPO_NAME="screenxtv-gcc-client" 
 PREVIOUS_DIR=$PWD
 TMP=/tmp
 
