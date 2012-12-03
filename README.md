@@ -1,8 +1,10 @@
 # ScreenX TV Sandbox
 
+[![Screenshot](https://raw.github.com/tompng/screenxtv-client/master/images/ss-screenxtv.png)](http://screenx.tv)
+
 ## Description
 
-This script enables you to install and run [ScreenX TV Client](http://screenx.tv) by just `curl` command.
+This script enables you to install and run [ScreenX TV Client](https://github.com/tompng/screenxtv-client) by just `curl` command.
 
 ## Start
 
