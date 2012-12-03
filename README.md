@@ -2,13 +2,15 @@
 
 This script installs and runs [ScreenX TV Client](http://screenx.tv) using `/tmp` directory.
 
-Type the following command to run the script:
+## Start
+
+Just type the following command in your terminal:
 
 __`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | sh`__
 
 ## Stop/Resume
 
-If you'd like to stop broadcasting, type `exit` in your terminal.
+Type `exit` in your terminal to exit from the broadcasting `screen`:
 
 To resume, re-run the script:
 
