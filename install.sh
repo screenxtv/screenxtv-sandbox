@@ -57,3 +57,7 @@ fi
 cd $TMP/$REPO_NAME
 echo "* going to start broadcasting ... \n"
 $TMP/$REPO_NAME/run < /dev/tty
+echo "\n* stopped broadcasting.\n"
+
+
+
