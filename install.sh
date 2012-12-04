@@ -58,13 +58,14 @@ echo "* going to start broadcasting ... \n"
 cd $TMP/$REPO_NAME
 $TMP/$REPO_NAME/run < /dev/tty
 cd $PREVIOUS_DIR
-echo "\n* stopped broadcasting.\n"
+echo ""
+echo "* stopped broadcasting."
 echo ""
 echo "* If you'd like to resume(attach) the broadcasting screen again,"
 echo "  just re-type the command."
 echo "    curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | sh"
 echo ""
 echo "* If you'd like to uninstall, remove the installed directory."
-echo "    rm -rf $TPM/$REPO_NAME"
+echo "    rm -rf $TMP/$REPO_NAME"
 echo ""
 
