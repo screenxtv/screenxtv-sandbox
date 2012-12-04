@@ -10,7 +10,7 @@ This script enables you to install and run [ScreenX TV Client](https://github.co
 
 Just type the following command in your terminal:
 
-__`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | sh`__
+__`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | bash`__
 
 ## Stop/Resume
 
@@ -18,7 +18,7 @@ Type `exit` in your terminal to exit from the broadcasting screen.
 
 And to resume, just re-run the script:
 
-__`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | sh`__
+__`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | bash`__
 
 ## Uninstall
 
