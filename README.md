@@ -28,4 +28,4 @@ __`rm -rf /tmp/screenxtv-gcc-client`__
 
 ## For details
 
-See [ScreenX TV Client repository](https://github.com/tompng/screenxtv-gcc-client).
+See [ScreenX TV GCC Client](https://github.com/tompng/screenxtv-gcc-client).
