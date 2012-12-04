@@ -55,6 +55,20 @@ if [ $? -gt 0 ]; then
     exit
 fi
 
+# create a config file to skip several steps (because this is just a sandbox).
+CONFIG_PATH=$TMP/$REPO_NAME/screenxtv.conf
+if [ -s $CONFIG_PATH ]; then
+    echo "* config file was found."
+else
+    echo "* creating config file ..."
+    echo "host: screenx.tv"  > $CONFIG_PATH
+    echo "port: 8000"        >> $CONFIG_PATH
+    echo "slug:"             >> $CONFIG_PATH 
+    echo "screen: screenxtv" >> $CONFIG_PATH 
+    echo "color: black"      >> $CONFIG_PATH 
+    echo "title: Anonymous Sandbox" >> $CONFIG_PATH 
+fi
+
 # run ScreenX TV Client
 echo "* going to start broadcasting ... "
 echo ""
@@ -68,10 +82,14 @@ echo "* If you'd like to resume(attach) the broadcasting screen again,"
 echo "  just re-type the command."
 echo "    curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | bash"
 echo ""
-echo "* If you'd like to uninstall, remove the installed directory."
+echo "* If you'd like to uninstall, remove the temporarily installed directory."
 echo "    rm -rf $TMP/$REPO_NAME"
 echo ""
-echo "* And if you're interested in ScreenX TV Client, come and join us!"
+echo "* This is simple sandbox script, so if you're interested in ScreenX TV Client,"
+echo "  please visit here, read instructions, and install for making best use of it."
 echo "    https://github.com/tompng/screenxtv-gcc-client"
+echo ""
+echo " Thanks,"
+echo " ScreenX TV Team"
 echo ""
 
