@@ -68,6 +68,7 @@ else
     echo "color: black"             >> $CONFIG_PATH 
     echo "title: Anonymous Sandbox" >> $CONFIG_PATH 
 fi
+echo ""
 
 # run ScreenX TV Client
 echo "* going to start broadcasting ... "
@@ -82,11 +83,11 @@ echo "* If you'd like to resume(attach) the broadcasting screen again,"
 echo "  just re-type the command."
 echo "    curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | bash"
 echo ""
-echo "* If you'd like to uninstall, remove the temporarily installed directory."
+echo "* If you'd like to delete the downloaded files, remove the following directory."
 echo "    rm -rf $TMP/$REPO_NAME"
 echo ""
-echo "* This is simple sandbox script, so if you're interested in ScreenX TV Client,"
-echo "  please visit here, read instructions, and install for making the best use of it."
+echo "* And if you're interested in ScreenX TV Client, please visit here,"
+echo "  read instructions, and install the client to make the best use of it."
 echo "    https://github.com/tompng/screenxtv-gcc-client"
 echo ""
 echo " Thanks,"
