@@ -6,7 +6,7 @@
 
 This script enables you to install and run [ScreenX TV Client](https://github.com/tompng/screenxtv-gcc-client) by just `curl` command.
 
-## Start
+## Install/Start
 
 Just type the following command in your terminal:
 
@@ -14,18 +14,18 @@ __`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh
 
 ## Stop/Resume
 
-Type `exit` in your terminal to exit from the broadcasting `screen`:
+Type `exit` in your terminal to exit from the broadcasting screen.
 
-To resume, re-run the script:
+And to resume, just re-run the script:
 
 __`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | sh`__
 
 ## Uninstall
 
-Remove a installed directory:
+Remove the installed directory:
 
 __`rm -rf /tmp/screenxtv-gcc-client`__
 
 ## For details
 
-See [ScreenX TV Client repository](https://github.com/tompng/screenxtv-gcc-client) for details.
+See [ScreenX TV Client repository](https://github.com/tompng/screenxtv-gcc-client).
