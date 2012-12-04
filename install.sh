@@ -68,4 +68,7 @@ echo ""
 echo "* If you'd like to uninstall, remove the installed directory."
 echo "    rm -rf $TMP/$REPO_NAME"
 echo ""
+echo "* And if you're interested in ScreenX TV Client, come and join us!"
+echo "    https://github.com/tompng/screenxtv-gcc-client"
+echo ""
 
