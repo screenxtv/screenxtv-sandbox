@@ -31,9 +31,9 @@ check_command "screen"
 #check_command "foobar" # dummy command for debug
 echo ""
 
-# stop installation if not executable.
+# stop broadcasting if not executable.
 if [ $IS_SCREENX_EXECUTABLE -gt 0 ]; then
-    echo "Please install required commands."
+    echo "Please install the required commands above."
     echo ""
     exit
 fi
@@ -81,7 +81,7 @@ echo "* stopped broadcasting."
 echo ""
 echo "* To resume(attach) the broadcasting screen,"
 echo "  re-type the command."
-echo "    curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/install.sh | bash"
+echo "    curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/run.sh | bash"
 echo ""
 echo "* To delete the downloaded files,"
 echo "  remove the following directory."
