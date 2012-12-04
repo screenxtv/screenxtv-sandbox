@@ -15,10 +15,10 @@ function check_command {
   
   # check if the given command is correctly invoked.  
   if [ $COMMAND_STATUS = 0 ]; then
-      echo "\t$1 is ...\tfound."
+      echo "  $1 is ... found."
       return 0
   else
-      echo "\t$1 is ...\tNOT found."
+      echo "  $1 is ... NOT found."
       IS_SCREENX_EXECUTABLE=1
       return 127
   fi
@@ -33,7 +33,8 @@ echo ""
 
 # stop installation if not executable.
 if [ $IS_SCREENX_EXECUTABLE -gt 0 ]; then
-    echo "Please install required commands.\n"
+    echo "Please install required commands."
+    echo ""
     exit
 fi
 
@@ -50,11 +51,13 @@ echo ""
 g++ -o $TMP/$REPO_NAME/run $TMP/$REPO_NAME/main.cc -lpthread -lutil
 if [ $? -gt 0 ]; then
     echo "* can't run ScreenX TV Client. Please check errors above."
+    echo ""
     exit
 fi
 
 # run ScreenX TV Client
-echo "* going to start broadcasting ... \n"
+echo "* going to start broadcasting ... "
+echo ""
 cd $TMP/$REPO_NAME
 $TMP/$REPO_NAME/run < /dev/tty
 cd $PREVIOUS_DIR
