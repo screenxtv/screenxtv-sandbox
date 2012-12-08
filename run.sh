@@ -38,7 +38,7 @@ if [ $IS_SCREENX_EXECUTABLE -gt 0 ]; then
     exit
 fi
 
-
+# download latest code if not downloaded yet
 if [ -s $TMP/$REPO_NAME ]; then
     echo "* already downloaded $REPO_NAME."
 else
@@ -48,18 +48,21 @@ fi
 echo ""
 
 # compile ScreenX TV Client
-g++ -o $TMP/$REPO_NAME/run $TMP/$REPO_NAME/main.cc -lpthread -lutil
+echo "* compile source"
+make --directory=$TMP/$REPO_NAME
 if [ $? -gt 0 ]; then
     echo "* can't run ScreenX TV Client. Please check errors above."
     echo ""
     exit
 fi
+echo ""
 
 # create a config file to skip several steps (because this is just a sandbox).
 CONFIG_PATH=$TMP/$REPO_NAME/screenxtv.conf
 if [ -s $CONFIG_PATH ]; then
     echo "* config file was found."
 else
+    echo ""
     echo "* creating config file ..."
     echo "host: screenx.tv"         > $CONFIG_PATH
     echo "port: 8000"               >> $CONFIG_PATH
@@ -73,9 +76,7 @@ echo ""
 # run ScreenX TV Client
 echo "* going to start broadcasting ... "
 echo ""
-cd $TMP/$REPO_NAME
-$TMP/$REPO_NAME/run < /dev/tty
-cd $PREVIOUS_DIR
+make run --directory=~/github-clones/screenxtv-gcc-client/ < /dev/tty
 echo ""
 echo "* stopped broadcasting."
 echo ""
