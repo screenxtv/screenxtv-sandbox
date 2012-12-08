@@ -62,7 +62,6 @@ CONFIG_PATH=$TMP/$REPO_NAME/screenxtv.conf
 if [ -s $CONFIG_PATH ]; then
     echo "* config file was found."
 else
-    echo ""
     echo "* creating config file ..."
     echo "host: screenx.tv"         > $CONFIG_PATH
     echo "port: 8000"               >> $CONFIG_PATH
@@ -75,7 +74,6 @@ echo ""
 
 # run ScreenX TV Client
 echo "* going to start broadcasting ... "
-echo ""
 make run --directory=~/github-clones/screenxtv-gcc-client/ < /dev/tty
 echo ""
 echo "* stopped broadcasting."
