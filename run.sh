@@ -74,7 +74,7 @@ echo ""
 
 # run ScreenX TV Client
 echo "* going to start broadcasting ... "
-make run --directory=~/github-clones/screenxtv-gcc-client/ < /dev/tty
+make run --directory=$TMP/$REPO_NAME < /dev/tty
 echo ""
 echo "* stopped broadcasting."
 echo ""
