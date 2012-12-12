@@ -74,7 +74,7 @@ echo ""
 
 # run ScreenX TV Client
 echo "* going to start broadcasting ... "
-make run --directory=$TMP/$REPO_NAME < /dev/tty
+make run ARGS="-f ${CONFIG_PATH}" --directory=$TMP/$REPO_NAME < /dev/tty
 echo ""
 echo "* stopped broadcasting."
 echo ""
