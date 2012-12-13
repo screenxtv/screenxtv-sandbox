@@ -65,7 +65,8 @@ else
     echo "* creating config file ..."
     echo "host: screenx.tv"         > $CONFIG_PATH
     echo "port: 8000"               >> $CONFIG_PATH
-    echo "slug:"                    >> $CONFIG_PATH 
+    echo "slug:"                    >> $CONFIG_PATH
+    echo "url:"                     >> $CONFIG_PATH
     echo "screen: screenxtv"        >> $CONFIG_PATH 
     echo "color: black"             >> $CONFIG_PATH 
     echo "title: Anonymous Sandbox" >> $CONFIG_PATH 
