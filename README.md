@@ -26,9 +26,12 @@ Remove the downloaded files:
 
 __`rm -rf /tmp/screenxtv-gcc-client`__
 
-## For details
+## Related Works
 
-See [ScreenX TV GCC Client](https://github.com/tompng/screenxtv-gcc-client).
+- [ScreenX TV GCC Client](https://github.com/tompng/screenxtv-gcc-client)
+- [ScreenX TV Ruby Client](https://github.com/tompng/screenxtv-ruby-client)
+- [ScreenX TV News](https://github.com/yasulab/screenxtv-news)
+- [ScreenX](https://github.com/tompng/screenx) (internal software)
 
 ## License
 
