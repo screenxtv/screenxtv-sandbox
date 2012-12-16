@@ -28,6 +28,7 @@ __`rm -rf /tmp/screenxtv-gcc-client`__
 
 ## Related Works
 
+- [ScreenX TV](http://screenx.tv/)
 - [ScreenX TV GCC Client](https://github.com/tompng/screenxtv-gcc-client)
 - [ScreenX TV Ruby Client](https://github.com/tompng/screenxtv-ruby-client)
 - [ScreenX TV News](https://github.com/yasulab/screenxtv-news)
