@@ -35,7 +35,9 @@ __`rm -rf /tmp/screenxtv-gcc-client`__
 - [ScreenX TV News](https://github.com/screenxtv/screenxtv-news)
 - [ScreenX](https://github.com/screenxtv/screenx) (Java-based stand-alone Software)
 
-## License (MIT)
+## License
+
+(The MIT License)
 
 Copyright (c) 2012 Yohei YASUKAWA
 
