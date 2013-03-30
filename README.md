@@ -1,16 +1,16 @@
 # ScreenX TV Sandbox
 
-[![Screenshot](https://raw.github.com/tompng/screenxtv-gcc-client/master/images/ss-screenxtv.png)](http://screenx.tv)
+[![Screenshot](https://raw.github.com/screenxtv/screenxtv-gcc-client/master/images/ss-screenxtv.png)](http://screenx.tv)
 
 ## Description
 
-This script enables you to run [ScreenX TV Client](https://github.com/tompng/screenxtv-gcc-client) by just `curl` command.
+This script enables you to run [ScreenX TV Client](https://github.com/screenxtv/screenxtv-gcc-client) by just `curl` command.
 
 ## Start Broadcasting
 
 Type the following command in your terminal:
 
-__`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/run.sh | bash`__
+__`curl -s -L https://raw.github.com/screenxtv/screenxtv-sandbox/master/run.sh | bash`__
 
 ## Stop/Resume Broadcasting
 
@@ -18,7 +18,7 @@ To stop, type `exit` in your terminal to exit from the broadcasting screen.
 
 To resume, re-type the script:
 
-__`curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/run.sh | bash`__
+__`curl -s -L https://raw.github.com/screenxtv/screenxtv-sandbox/master/run.sh | bash`__
 
 ## Delete
 
@@ -29,12 +29,13 @@ __`rm -rf /tmp/screenxtv-gcc-client`__
 ## Related Works
 
 - [ScreenX TV](http://screenx.tv/)
-- [ScreenX TV GCC Client](https://github.com/tompng/screenxtv-gcc-client)
-- [ScreenX TV Ruby Client](https://github.com/tompng/screenxtv-ruby-client)
-- [ScreenX TV News](https://github.com/yasulab/screenxtv-news)
-- [ScreenX](https://github.com/tompng/screenx) (internal software)
+- [ScreenX TV GCC Client](https://github.com/screenxtv/screenxtv-gcc-client)
+- [ScreenX TV Ruby Client](https://github.com/screenxtv/screenxtv-ruby-client)
+- [ScreenX TV Sandbox](https://github.com/screenxtv/screenxtv-sandbox)
+- [ScreenX TV News](https://github.com/screenxtv/screenxtv-news)
+- [ScreenX](https://github.com/screenxtv/screenx) (Java-based stand-alone Software)
 
-## License
+## License (MIT)
 
 Copyright (c) 2012 Yohei YASUKAWA
 
