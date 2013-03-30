@@ -43,7 +43,7 @@ if [ -s $TMP/$REPO_NAME ]; then
     echo "* already downloaded $REPO_NAME."
 else
     echo "* downloading ScreenX TV Client ..."
-    git clone https://github.com/tompng/$REPO_NAME.git --local $TMP/$REPO_NAME
+    git clone https://github.com/screenxtv/$REPO_NAME.git --local $TMP/$REPO_NAME
 fi
 echo ""
 
@@ -81,7 +81,7 @@ echo "* stopped broadcasting."
 echo ""
 echo "* To resume(attach) the broadcasting screen,"
 echo "  re-type the command."
-echo "    curl -s -L https://raw.github.com/yasulab/screenxtv-sandbox/master/run.sh | bash"
+echo "    curl -s -L https://raw.github.com/screenxtv/screenxtv-sandbox/master/run.sh | bash"
 echo ""
 echo "* To delete the downloaded files,"
 echo "  remove the following directory."
@@ -89,7 +89,7 @@ echo "    rm -rf $TMP/$REPO_NAME"
 echo ""
 echo "* To make the best use of ScreenX TV Client,"
 echo "  please visit here, read instructions, and install it."
-echo "    https://github.com/tompng/screenxtv-gcc-client"
+echo "    https://github.com/screenxtv/screenxtv-gcc-client"
 echo ""
 echo "  Thanks,"
 echo "  ScreenX TV Team"
